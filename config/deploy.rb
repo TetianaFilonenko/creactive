@@ -1,4 +1,8 @@
-require "bundler/capistrano"
+# config valid only for current version of Capistrano
+#lock '3.3.5'
+
+#set :application, 'creactive'
+#set :repo_url, 'github.com/TetianaFilonenko/creactive.git'
 
 server "178.62.107.68", :web, :app, :db, primary: true
 
