@@ -3,7 +3,7 @@
 
 #set :application, 'creactive'
 #set :repo_url, 'github.com/TetianaFilonenko/creactive.git'
-
+require "bundler/capistrano"
 server "178.62.107.68", :web, :app, :db, primary: true
 
 set :application, "creactive"
